@@ -4,10 +4,16 @@
   "description": "Jacob Kaplan Data Visualization Assignment 1",
   "author": "Jacob Kaplan",
   "private": true,
+  "homepage":"https://qwertey6.github.io/01-ghd3/",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
