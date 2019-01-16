@@ -1,0 +1,21 @@
+<html lang="en">
+  <head>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <title>CS4241 Assignment 2</title>
+    <meta charset="utf-8">
+    <script src="/Maze.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="/Maze.css">
+  </head>
+  <body style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;">
+    <svg y="0" x="0" id=menu>
+      <defs>
+        <filter id="filter">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="18" result="blur"/>
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 28 -10" result="filter" />
+          <feComposite in="SourceGraphic" in2="filter" operator="atop" />
+        </filter>
+      </defs>
+      
+    </svg>
+  </body>
+</html>

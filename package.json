@@ -1,0 +1,13 @@
+{
+  "name": "MazeCraze",
+  "version": "0.1.0",
+  "description": "Jacob Kaplan Data Visualization Assignment 1",
+  "author": "Jacob Kaplan",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "sqlite3": "^4.0.2"
+  }
+}
